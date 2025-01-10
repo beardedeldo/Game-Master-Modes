@@ -1,0 +1,172 @@
+SCR_MapEntity MapEntity : "{731564B66F91B107}Prefabs/World/Game/MapEntity.et" {
+ coords 5224.089 4.761 5598.738
+ "Map Geometry Data" "{3338143CDA6BD606}Worlds/Gogland.topo"
+ "Satellite background image" "{6B37DF7C6C73F02B}Data/UI/Textures/Map/Worlds/Gogland_ras.edds"
+ {
+  CommentEntity {
+   coords 0 1 0
+   m_Comment "MapEntity: "\
+   "Set up map textures"
+   m_Color 0 0 0
+   m_FaceCamera 1
+   m_TextBackground 1
+   m_BackgroundColor 1 0.6 0
+   m_BackgroundTransparency 0
+  }
+ }
+}
+SCR_AIWorld SCR_AIWorld : "{E0A05C76552E7F58}Prefabs/AI/SCR_AIWorld.et" {
+ components {
+  NavmeshWorldComponent "{5584F30E67F617AD}" {
+   NavmeshSettings NavmeshWorld "{50FC63BEBE3973C5}" {
+    NavmeshFilesConfig BaseNavmeshFilesConfig "{6316191E86CD364F}" {
+     NavmeshFile "{20E5B728C88940C2}Worlds/Gamemaster/Navmeshes/gogland_navmesh.nmn"
+    }
+   }
+  }
+  NavmeshWorldComponent "{5584F30EEFEE1223}" {
+   NavmeshSettings ChimeraNavmeshWorld "{50FC63BEBE3973C5}" {
+    NavmeshFilesConfig BaseNavmeshFilesConfig "{60CA9BE5536BF701}" {
+     NavmeshFile "{283723190A998A3A}Worlds/Gamemaster/Navmeshes/Vehicle_navmesh/gogland_vehicle_navmesh.nmn"
+    }
+   }
+  }
+  NavmeshWorldComponent "{5C8C9B750D124A63}" {
+   NavmeshSettings NavmeshWorld "{5C8C9B750B60C6E2}" {
+    NavmeshFilesConfig BaseNavmeshFilesConfig "{5C90BD0EC793647D}" {
+     NavmeshFile "{A32430981C1ACB9C}Worlds/Gamemaster/Navmeshes/lowres_navmesh/gogland_lowres_navmesh.nmn"
+    }
+   }
+  }
+ }
+ coords 5224.089 4.667 5597.738
+ {
+  CommentEntity {
+   coords 0 1 0
+   m_Comment "SCR_AIWorld: "\
+   "Configure navigation mesh"
+   m_Color 0 0 0
+   m_FaceCamera 1
+   m_TextBackground 1
+   m_BackgroundColor 1 0.6 0
+   m_BackgroundTransparency 0
+  }
+ }
+}
+PerceptionManager PerceptionManager : "{028DAEAD63E056BE}Prefabs/World/Game/PerceptionManager.et" {
+ coords 5224.089 4.573 5596.738
+}
+SCR_FactionManager FactionManager_Editor1 : "{4A188E44289B9A50}Prefabs/MP/Managers/Factions/FactionManager_Editor.et" {
+ coords 5226.137 5.257 5602.577
+ Factions {
+  SCR_Faction "{56DEAC40D2DBC8B1}" {
+   UIInfo SCR_FactionUIInfo "{528C961236B7DCD3}" {
+    Name "MSOC Shadows "
+   }
+   m_bIsPlayable 1
+   m_aPredefinedGroups {
+    SCR_GroupPreset "{633017233CA24ACD}" {
+     m_sGroupName "Command - \"SHADOW ACTUAL\" "
+     m_iGroupSize 4
+     m_iRadioFrequency 51000
+    }
+    SCR_GroupPreset "{63301722BB71BE10}" {
+     m_sGroupName " SL - Callsign \"REAPER ONE \""
+     m_iGroupSize 2
+     m_iRadioFrequency 46000
+    }
+    SCR_GroupPreset "{633017232DE1D7AA}" {
+     m_sGroupName "Alpha - Callsign \"BLUE\""
+     m_iGroupSize 8
+     m_iRadioFrequency 45000
+    }
+    SCR_GroupPreset "{63301723CA87E686}" {
+     m_sGroupName "Bravo - Callsign \"GOLD\""
+     m_iGroupSize 8
+     m_iRadioFrequency 44000
+    }
+    SCR_GroupPreset "{64540B89D1C4DD1E}" {
+     m_sGroupName "Charlie - Callsign \"BLACK\""
+     m_iGroupSize 8
+     m_iRadioFrequency 43000
+    }
+    SCR_GroupPreset "{6336D70F22DB48A8}" {
+     m_sGroupName "Eagles "
+     m_iGroupSize 4
+     m_iRadioFrequency 49000
+    }
+    SCR_GroupPreset "{63301723DDF7D292}" {
+     m_sGroupName "Tier One "
+     m_iGroupSize 8
+     m_iRadioFrequency 47500
+    }
+   }
+   m_bCreateOnlyPredefinedGroups 1
+  }
+  SCR_Faction "{5CC8DE37E1FF0F7A}" {
+   m_aEntityCatalogs {
+    SCR_EntityCatalogMultiList "{5D4A8E6F04DCBF0B}" {
+     m_aMultiLists {
+      SCR_EntityCatalogMultiListEntry "{61835C01E90BB7D5}" {
+       m_aEntities {
+        SCR_EntityCatalogEntry "{61835C023A20447B}" {
+        }
+        SCR_EntityCatalogEntry "{61835C0232DDB659}" {
+        }
+        SCR_EntityCatalogEntry "{61835C025850E36B}" {
+        }
+        SCR_EntityCatalogEntry "{61835C0248479D3A}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogEntry "{61835C0245AF3B13}" {
+        }
+        SCR_EntityCatalogEntry "{6216FB8C0F292C64}" {
+        }
+        SCR_EntityCatalogEntry "{61835C0247A731AA}" {
+        }
+        SCR_EntityCatalogEntry "{61835C0241C12001}" {
+        }
+        SCR_EntityCatalogEntry "{61835C0243AEDD6C}" {
+        }
+        SCR_EntityCatalogEntry "{61835C0268919BDE}" {
+        }
+        SCR_EntityCatalogEntry "{61835C026B7EABDD}" {
+        }
+        SCR_EntityCatalogEntry "{61835C02653AD200}" {
+        }
+        SCR_EntityCatalogEntry "{61835C0266A83C23}" {
+        }
+        SCR_EntityCatalogEntry "{61835C02617DA12A}" {
+        }
+        SCR_EntityCatalogEntry "{61835C0263272D2B}" {
+        }
+       }
+      }
+      SCR_EntityCatalogMultiListEntry "{61835C01E373CF53}" {
+       m_aEntities {
+        SCR_EntityCatalogEntry "{61835C021732E80B}" {
+        }
+        SCR_EntityCatalogEntry "{62D2F3D1EB0EA86A}" {
+        }
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+}
+SCR_GameModeEditor GameMode_Editor_Full : "{DA3986AF1B5032B7}Prefabs/MP/Modes/Editor/GameMode_Editor_Full.et" {
+ coords 5224.089 4.482 5595.738
+ {
+  SCR_FactionManager "631621D65F61D61C" {
+   ID "56E685E92F1B7E7A"
+   Factions {
+    SCR_Faction "{56DEAC40D2DBC8B1}" {
+     UIInfo SCR_FactionUIInfo "{528C961236B7DCD3}" {
+     }
+    }
+   }
+  }
+ }
+}

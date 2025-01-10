@@ -1,0 +1,22 @@
+GameProject {
+ ID "GMGoglandMSOC"
+ GUID "6316191F7FB80E6A"
+ TITLE "GM_Gogland_MSOC"
+ Dependencies {
+  "623EEDF242F6265E" "58D0FB3206B6F859" "5994AD5A9F33BE57" "60C4CE4888FF4621" "60C4C12DAE90727B" "5DBD560C5148E1DA" "595F2BF2F44836FB" "62593E440F3FF363" "62D6EACFCFB613BC"
+ }
+ Configurations {
+  GameProjectConfig PC {
+  }
+  GameProjectConfig XBOX_ONE {
+  }
+  GameProjectConfig XBOX_SERIES {
+  }
+  GameProjectConfig PS4 {
+  }
+  GameProjectConfig PS5 {
+  }
+  GameProjectConfig HEADLESS {
+  }
+ }
+}

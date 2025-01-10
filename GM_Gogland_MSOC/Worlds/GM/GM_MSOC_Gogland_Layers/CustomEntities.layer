@@ -1,0 +1,137 @@
+SCR_DestructibleBuildingEntity : "{03CD92D04CA09CAD}Prefabs/Compositions/Misc/CustomEntities/DestructionEntities/GeraldFord_AircraftCarrier.et" {
+ coords 2512.021 96.792 6702.854
+ angleY 120.014
+ {
+  GenericEntity {
+   ID "6260D666C3778B74"
+   coords -0.046 -0.103 -0.021
+  }
+  GenericEntity {
+   ID "6260D666C3778B18"
+   coords -0.046 -0.103 -0.021
+  }
+  GenericEntity {
+   ID "6260D666C3778B0E"
+   coords -0.046 -0.103 -0.021
+  }
+  $grp GenericEntity : "{D2DF42F08A45C746}Prefabs/Props/PropsHeine/F-18.et" {
+   {
+    coords 23.019 14.023 95.08
+    angleY -179.141
+   }
+   {
+    coords -24.772 14.023 55.854
+    angleY -1.135
+   }
+   {
+    coords -11.45 14.126 131.639
+    angleY 82.308
+   }
+  }
+ }
+}
+GenericEntity sub_msoc : "{3049B9BE0F9094B4}Prefabs/Structures/Models/tem_sub.et" {
+ coords 1287.539 -2.565 4266.13
+ angleY -154.415
+}
+GenericEntity : "{46BC14558C604C4E}Prefabs/Props/PropsHeine/HMS_Clyde.et" {
+ coords 2321.927 -1.485 5735.348
+ angleY -80.975
+ {
+  GenericEntity : "{207442723F49FC41}Prefabs/Compositions/Misc/SubCompositions/Sandbag_MG_US_02_M60.et" {
+   coords -9.268 9.519 16.47
+   angleY -50.853
+  }
+  GenericEntity : "{3970981B94D3F882}Prefabs/Systems/Arsenal/ArsenalBoxes/US/ArsenalBox_USMC.et" {
+   components {
+    SCR_ArsenalComponent "{56F2C6D1431AD9AF}" {
+     m_eSupportedArsenalItemModes 254
+     m_eArsenalSaveType NO_RESTRICTIONS
+    }
+   }
+   coords 7.727 3.021 -43
+   angleY -0.848
+  }
+  GenericEntity : "{45C675ED3CFBBEC5}Prefabs/Props/Military/Compositions/US/ArsenalBox_US.et" {
+   coords -7.603 3.021 -42.929
+   angleY -4.122
+  }
+  GenericEntity : "{53EB8BF116A99F3B}Prefabs/Props/Military/Sandbags/Sandbag_01_short_high_base.et" {
+   coords -0.066 8.493 28.67
+   angleY -0.828
+  }
+  GenericEntity : "{571F3532D1177DA1}Prefabs/Props/Military/Arsenal/WeaponRacks/US/WeaponRackStandArsenal_US.et" {
+   components {
+    SCR_FactionAffiliationComponent "{5A50E7661D447924}" {
+     "faction affiliation" "RHS_USAF"
+    }
+   }
+   coords 3.514 3.021 -43.313
+   angleY 0.646
+  }
+  GenericEntity : "{5FFD91CF507BFFFB}Prefabs/Props/Military/Arsenal/AmmoBoxes/US/AmmoBoxArsenal_Ammunition_US.et" {
+   components {
+    SCR_ArsenalComponent "{589F01C9C8D4A475}" {
+     m_eSupportedArsenalItemTypes MACHINE_GUN
+    }
+   }
+   coords -9.506 9.136 14.183
+   angleY 89.84
+  }
+  GenericEntity : "{8313841018EC1AB9}Prefabs/Props/Military/Arsenal/WeaponRacks/WeaponRackCabinetArsenal_Base.et" {
+   components {
+    SCR_FactionAffiliationComponent "{5A50E76678BE335D}" {
+     "faction affiliation" "RHS_USAF"
+    }
+   }
+   coords -1.651 3.021 -43.303
+   angleY 1.456
+  }
+  $grp GameEntity : "{B8508AD8AA5464E8}Prefabs/Structures/BuildingParts/Ladders/Ladder_DieselPowerPlant_01/Ladder_DieselPowerPlant_01_322_B.et" {
+   {
+    coords -9.847 2.928 -25.817
+    angleY -93.317
+   }
+   {
+    coords 10.178 2.954 -26.683
+    angleY 89.454
+   }
+  }
+  SCR_SpawnPoint : "{BAA81EBB96FE665A}Prefabs/MP/Spawning/SpawnPoint_US_Amphibious.et" {
+   coords -0.907 6.163 -25.495
+   angleY 80.975
+  }
+  $grp GenericEntity : "{DC4B11930753ABC2}Prefabs/Props/Military/Sandbags/Sandbag_01_round_high_base.et" {
+   {
+    coords -9.295 9.072 16.437
+    angleY -51.711
+   }
+   {
+    coords 2.016 8.583 28.152
+    angleY 25.417
+   }
+   {
+    coords -2.035 8.596 27.964
+    angleY -42.041
+   }
+  }
+ }
+}
+$grp GenericEntity : "{D1AE7F446E498EC5}Prefabs/Props/PropsHeine/Mig 29.et" {
+ {
+  coords 1326.888 2.75 5053.901
+  angleY 44.472
+ }
+ {
+  coords 1260.464 2.779 4977.059
+  angleY -55.983
+ }
+ {
+  coords 1243.38 2.779 4986.041
+  angleY -44.593
+ }
+ {
+  coords 1351.936 2.75 5033.291
+  angleY 42.599
+ }
+}
